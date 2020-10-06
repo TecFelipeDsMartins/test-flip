@@ -3,6 +3,10 @@ import "./style.css";
   
 export default function App() {
 
+flipCard = {
+  transform: "rotateY(180deg)"
+}
+
 return (
     <div>
       <h1>Card Flip with Text</h1>
